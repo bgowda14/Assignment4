@@ -15,7 +15,7 @@
   </Hotel>
   <Hotel id="H2">
     <Name>Hotel XYZ</Name>
-    <Address>
+    <Address NearestAirport="Airport2">
       <Number>456</Number>
       <Street>Second Ave</Street>
       <City>Phoenix</City>
