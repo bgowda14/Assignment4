@@ -2,7 +2,7 @@
 <Hotels>
   <Hotel id="H1">
     <Name>Hotel ABC</Name>
-    <Address NearestAirport="Airport1">
+    <Address NearstAirport="Airport1">
       <Number>123</Number>
       <Street>Main Street</Street>
       <City>Tempe</City>
@@ -15,7 +15,7 @@
   </Hotel>
   <Hotel id="H2">
     <Name>Hotel XYZ</Name>
-    <Address NearestAirport= "Airport2">
+    <Address NearstAirport="Airport2">
       <Number>456</Number>
       <Street>Second Ave</Street>
       <City>Phoenix</City>
@@ -23,5 +23,98 @@
       <Zip>85004</Zip>
     </Address>
     <Phone>345-678-9012</Phone>
+  </Hotel>
+  <Hotel id="H3">
+    <Name>Hotel Sunrise</Name>
+    <Address NearstAirport="Airport3">
+      <Number>789</Number>
+      <Street>Third Blvd</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85701</Zip>
+    </Address>
+    <Phone>456-789-0123</Phone>
+    <Rating>4.0</Rating>
+  </Hotel>
+  <Hotel id="H4">
+    <Name>Hotel Sunset</Name>
+    <Address NearstAirport="Airport4">
+      <Number>101</Number>
+      <Street>Fourth Street</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85260</Zip>
+    </Address>
+    <Phone>567-890-1234</Phone>
+  </Hotel>
+  <Hotel id="H5">
+    <Name>Hotel Paradise</Name>
+    <Address NearstAirport="Airport5">
+      <Number>202</Number>
+      <Street>Fifth Ave</Street>
+      <City>Glendale</City>
+      <State>AZ</State>
+      <Zip>85301</Zip>
+    </Address>
+    <Phone>678-901-2345</Phone>
+    <Rating>4.2</Rating>
+  </Hotel>
+  <Hotel id="H6">
+    <Name>Hotel Oasis</Name>
+    <Address NearstAirport="Airport6">
+      <Number>303</Number>
+      <Street>Sixth Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+    <Phone>789-012-3456</Phone>
+  </Hotel>
+  <Hotel id="H7">
+    <Name>Hotel Majestic</Name>
+    <Address NearstAirport="Airport7">
+      <Number>404</Number>
+      <Street>Seventh Street</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85005</Zip>
+    </Address>
+    <Phone>890-123-4567</Phone>
+    <Rating>4.8</Rating>
+  </Hotel>
+  <Hotel id="H8">
+    <Name>Hotel Imperial</Name>
+    <Address NearstAirport="Airport8">
+      <Number>505</Number>
+      <Street>Eighth Ave</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85702</Zip>
+    </Address>
+    <Phone>901-234-5678</Phone>
+  </Hotel>
+  <Hotel id="H9">
+    <Name>Hotel Royale</Name>
+    <Address NearstAirport="Airport9">
+      <Number>606</Number>
+      <Street>Ninth Road</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85261</Zip>
+    </Address>
+    <Phone>012-345-6789</Phone>
+    <Rating>4.3</Rating>
+  </Hotel>
+  <Hotel id="H10">
+    <Name>Hotel Elite</Name>
+    <Address NearstAirport="Airport10">
+      <Number>707</Number>
+      <Street>Tenth Street</Street>
+      <City>Glendale</City>
+      <State>AZ</State>
+      <Zip>85302</Zip>
+    </Address>
+    <Phone>123-123-1234</Phone>
+    <Rating>4.6</Rating>
   </Hotel>
 </Hotels>
