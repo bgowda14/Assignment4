@@ -15,7 +15,7 @@
   </Hotel>
   <Hotel>
     <Name>Hotel Missing ID</Name>
-    <Address>
+    <Address NearestAirport="Airport2">
       <Number>456</Number>
       <Street>Second Ave</Street>
       <City>Phoenix</City>
@@ -26,31 +26,32 @@
   </Hotel>
   <Hotel id="H3">
     <Name>Hotel No Phone</Name>
-    <Address>
+    <Address NearestAirport="Airport3">
       <Number>789</Number>
       <Street>Third Blvd</Street>
       <City>Tucson</City>
       <State>AZ</State>
       <Zip>85701</Zip>
     </Address>
+    <!-- Missing Phone element -->
     <Rating>4.0</Rating>
   </Hotel>
-<Hotel id="H4">
-  <Name>Hotel Bad Address</Name>
-  <Address>
-    <Number>101</Number>
-    <Street>Fourth Street</Street>
-    <City>Scottsdale</City>
-    <State>AZ</State>
-    <Zip>85260</Zip>
-  </Address>
-  <Phone>456-789-0123</Phone>
-  <Rating>3.8</Rating>
-</Hotel>
+  <Hotel id="H4">
+    <Name>Hotel Bad Address</Name>
+    <Address NearestAirport="Airport4">
+      <Number>101</Number>
+      <Street>Fourth Street</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85260</Zip>
+    <!-- Missing the closing </Address> tag -->
+    <Phone>456-789-0123</Phone>
+    <Rating>3.8</Rating>
+  </Hotel>
   <Hotel id="H5">
     <Name>Hotel Duplicate</Name>
     <Name>Duplicate Hotel Name</Name>
-    <Address>
+    <Address NearestAirport="Airport5">
       <Number>202</Number>
       <Street>Fifth Ave</Street>
       <City>Glendale</City>
