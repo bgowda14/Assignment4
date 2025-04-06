@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels>
+  <Hotel id="H1">
+    <Name>Hotel ABC</Name>
+    <Address NearestAirport="Airport1">
+      <Number>123</Number>
+      <Street>Main Street</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Phone>123-456-7890</Phone>
+    <Phone>234-567-8901</Phone>
+    <Rating>4.5</Rating>
+  </Hotel>
+  <Hotel id="H2">
+    <Name>Hotel XYZ</Name>
+    <Address>
+      <Number>456</Number>
+      <Street>Second Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+    <Phone>345-678-9012</Phone>
+  </Hotel>
+</Hotels>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotel>
+  <Hotel id="H1">
+    <Name>Hotel ABC</Name>
+    <Address NearestAirport="Airport1">
+      <Number>123</Number>
+      <Street>Main Street</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Phone>123-456-7890</Phone>
+    <Phone>234-567-8901</Phone>
+    <Rating>4.5</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Hotel Missing ID</Name>
+    <Address>
+      <Number>456</Number>
+      <Street>Second Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+    <Phone>345-678-9012</Phone>
+  </Hotel>
+  <Hotel id="H3">
+    <Name>Hotel No Phone</Name>
+    <Address>
+      <Number>789</Number>
+      <Street>Third Blvd</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85701</Zip>
+    </Address>
+    <Rating>4.0</Rating>
+  </Hotel>
+<Hotel id="H4">
+  <Name>Hotel Bad Address</Name>
+  <Address>
+    <Number>101</Number>
+    <Street>Fourth Street</Street>
+    <City>Scottsdale</City>
+    <State>AZ</State>
+    <Zip>85260</Zip>
+  </Address>
+  <Phone>456-789-0123</Phone>
+  <Rating>3.8</Rating>
+</Hotel>
+  <Hotel id="H5">
+    <Name>Hotel Duplicate</Name>
+    <Name>Duplicate Hotel Name</Name>
+    <Address>
+      <Number>202</Number>
+      <Street>Fifth Ave</Street>
+      <City>Glendale</City>
+      <State>AZ</State>
+      <Zip>85301</Zip>
+    </Address>
+    <Phone>567-890-1234</Phone>
+    <Rating>4.2</Rating>
+  </Hotel>
+</Hotel>
