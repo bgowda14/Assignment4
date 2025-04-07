@@ -14,7 +14,7 @@
     <Rating>4.5</Rating>
   </Hotel>
   <Hotel>
-    <!-- Missing required attribute: nearstAirport is omitted in Address -->
+    <!-- Missing required attribute: nearstAirport is omitted -->
     <Name>Hotel XYZ</Name>
     <Phone>345-678-9012</Phone>
     <Address>
