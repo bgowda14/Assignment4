@@ -1,29 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  
-  <!-- 
-    Root element: <Hotels>
-    Contains multiple <Hotel> elements with the following strict order:
-      1. Name (required)
-      2. Phone (one or more, maxOccurs="unbounded")
-      3. Address (required) with child elements and required NearstAirport attribute
-      4. Rating (optional)
-  -->
-  
+
+  <!-- Root: <Hotels> containing multiple <Hotel> elements -->
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="Hotel" maxOccurs="unbounded" minOccurs="1">
+        <xs:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              
-              <!-- 1. Name -->
+              <!-- Name: exactly one -->
               <xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1"/>
-              
-              <!-- 2. Phone (at least one, possibly many) -->
+              <!-- Phone: one or more -->
               <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
-              
-              <!-- 3. Address with child elements and required NearstAirport attribute -->
+              <!-- Address: exactly one, with required NearstAirport attribute -->
               <xs:element name="Address" minOccurs="1" maxOccurs="1">
                 <xs:complexType>
                   <xs:sequence>
@@ -33,19 +22,16 @@
                     <xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1"/>
                     <xs:element name="Zip" type="xs:string" minOccurs="1" maxOccurs="1"/>
                   </xs:sequence>
-                  <!-- NearstAirport is now required -->
                   <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
                 </xs:complexType>
               </xs:element>
-              
-              <!-- 4. Rating (optional, numeric) -->
+              <!-- Rating: optional, numeric -->
               <xs:element name="Rating" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
-            
             </xs:sequence>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  
+
 </xs:schema>
