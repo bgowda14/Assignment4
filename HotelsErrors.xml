@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotel>
-  <Hotel id="H1">
+  <Hotel>
     <Name>Hotel ABC</Name>
     <Phone>123-456-7890</Phone>
     <Phone>234-567-8901</Phone>
@@ -14,10 +14,10 @@
     <Rating>4.5</Rating>
   </Hotel>
   <Hotel>
-    <!-- Missing required attribute 'id' -->
+    <!-- Missing required attribute: nearstAirport is omitted in Address -->
     <Name>Hotel XYZ</Name>
     <Phone>345-678-9012</Phone>
-    <Address nearstAirport="Airport2">
+    <Address>
       <Number>456</Number>
       <Street>Second Ave</Street>
       <City>Phoenix</City>
@@ -25,7 +25,7 @@
       <Zip>85004</Zip>
     </Address>
   </Hotel>
-  <Hotel id="H3">
+  <Hotel>
     <Name>Hotel Sunrise</Name>
     <!-- Missing Phone element -->
     <Address nearstAirport="Airport3">
@@ -37,7 +37,7 @@
     </Address>
     <Rating>4.0</Rating>
   </Hotel>
-  <Hotel id="H4">
+  <Hotel>
     <Name>Hotel Sunset</Name>
     <Phone>567-890-1234</Phone>
     <Address nearstAirport="Airport4">
@@ -46,10 +46,11 @@
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85260</Zip>
-    <!-- Missing closing tag for Address -->
+    <!-- Missing the closing tag for Address -->
     <Rating>?</Rating>
   </Hotel>
-  <Hotel id="H5">
+  <Hotel>
+    <!-- Duplicate Name element -->
     <Name>Hotel Paradise</Name>
     <Name>Duplicate Hotel Name</Name>
     <Phone>678-901-2345</Phone>
@@ -62,7 +63,7 @@
     </Address>
     <Rating>4.2</Rating>
   </Hotel>
-  <Hotel id="H6">
+  <Hotel>
     <Name>Hotel Oasis</Name>
     <Phone>789-012-3456</Phone>
     <Address nearstAirport="Airport6">
@@ -73,7 +74,7 @@
       <Zip>85282</Zip>
     </Address>
   </Hotel>
-  <Hotel id="H7">
+  <Hotel>
     <Name>Hotel Majestic</Name>
     <Phone>890-123-4567</Phone>
     <Address nearstAirport="Airport7">
@@ -85,7 +86,7 @@
     </Address>
     <Rating>4.8</Rating>
   </Hotel>
-  <Hotel id="H8">
+  <Hotel>
     <Name>Hotel Imperial</Name>
     <Phone>901-234-5678</Phone>
     <Address nearstAirport="Airport8">
@@ -96,7 +97,7 @@
       <Zip>85702</Zip>
     </Address>
   </Hotel>
-  <Hotel id="H9">
+  <Hotel>
     <Name>Hotel Royale</Name>
     <Phone>012-345-6789</Phone>
     <Address nearstAirport="Airport9">
@@ -108,7 +109,7 @@
     </Address>
     <Rating>4.3</Rating>
   </Hotel>
-  <Hotel id="H10">
+  <Hotel>
     <Name>Hotel Elite</Name>
     <Phone>123-123-1234</Phone>
     <Address nearstAirport="Airport10">
