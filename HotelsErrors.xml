@@ -4,7 +4,7 @@
     <Name>Hotel ABC</Name>
     <Phone>123-456-7890</Phone>
     <Phone>234-567-8901</Phone>
-    <Address nearstAirport="Airport1">
+    <Address NearstAirport="Airport1">
       <Number>123</Number>
       <Street>Main Street</Street>
       <City>Tempe</City>
@@ -14,7 +14,7 @@
     <Rating>4.5</Rating>
   </Hotel>
   <Hotel>
-    <!-- Missing required attribute: nearstAirport is omitted -->
+    <!-- Missing required attribute: NearstAirport is omitted -->
     <Name>Hotel XYZ</Name>
     <Phone>345-678-9012</Phone>
     <Address>
@@ -28,7 +28,7 @@
   <Hotel>
     <Name>Hotel Sunrise</Name>
     <!-- Missing Phone element -->
-    <Address nearstAirport="Airport3">
+    <Address NearstAirport="Airport3">
       <Number>789</Number>
       <Street>Third Blvd</Street>
       <City>Tucson</City>
@@ -40,7 +40,7 @@
   <Hotel>
     <Name>Hotel Sunset</Name>
     <Phone>567-890-1234</Phone>
-    <Address nearstAirport="Airport4">
+    <Address NearstAirport="Airport4">
       <Number>101</Number>
       <Street>Fourth Street</Street>
       <City>Scottsdale</City>
@@ -54,7 +54,7 @@
     <Name>Hotel Paradise</Name>
     <Name>Duplicate Hotel Name</Name>
     <Phone>678-901-2345</Phone>
-    <Address nearstAirport="Airport5">
+    <Address NearstAirport="Airport5">
       <Number>202</Number>
       <Street>Fifth Ave</Street>
       <City>Glendale</City>
@@ -66,7 +66,7 @@
   <Hotel>
     <Name>Hotel Oasis</Name>
     <Phone>789-012-3456</Phone>
-    <Address nearstAirport="Airport6">
+    <Address NearstAirport="Airport6">
       <Number>303</Number>
       <Street>Sixth Blvd</Street>
       <City>Tempe</City>
@@ -77,7 +77,7 @@
   <Hotel>
     <Name>Hotel Majestic</Name>
     <Phone>890-123-4567</Phone>
-    <Address nearstAirport="Airport7">
+    <Address NearstAirport="Airport7">
       <Number>404</Number>
       <Street>Seventh Street</Street>
       <City>Phoenix</City>
@@ -89,7 +89,7 @@
   <Hotel>
     <Name>Hotel Imperial</Name>
     <Phone>901-234-5678</Phone>
-    <Address nearstAirport="Airport8">
+    <Address NearstAirport="Airport8">
       <Number>505</Number>
       <Street>Eighth Ave</Street>
       <City>Tucson</City>
@@ -100,7 +100,7 @@
   <Hotel>
     <Name>Hotel Royale</Name>
     <Phone>012-345-6789</Phone>
-    <Address nearstAirport="Airport9">
+    <Address NearstAirport="Airport9">
       <Number>606</Number>
       <Street>Ninth Road</Street>
       <City>Scottsdale</City>
@@ -112,7 +112,7 @@
   <Hotel>
     <Name>Hotel Elite</Name>
     <Phone>123-123-1234</Phone>
-    <Address nearstAirport="Airport10">
+    <Address NearstAirport="Airport10">
       <Number>707</Number>
       <Street>Tenth Street</Street>
       <City>Glendale</City>
