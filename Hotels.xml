@@ -108,7 +108,7 @@
   <Hotel>
     <Name>Hotel Elite</Name>
     <Phone>123-123-1234</Phone>
-    <Address>
+    <Address NearstAirport="Airport10">
       <Number>707</Number>
       <Street>Tenth Street</Street>
       <City>Glendale</City>

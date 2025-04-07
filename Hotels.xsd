@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
+  
   <!-- 
-    1) The root element is <Hotels>, containing multiple <Hotel> elements 
-    2) Each <Hotel> uses <xs:sequence> to enforce order of:
-       - Name (exactly 1)
-       - Phone (1..unbounded)
-       - Address (exactly 1; with optional NearstAirport attribute)
-       - Rating (0..1)
+    Root element: <Hotels>
+    Contains multiple <Hotel> elements with the following strict order:
+      1. Name (required)
+      2. Phone (one or more, maxOccurs="unbounded")
+      3. Address (required) with child elements and required NearstAirport attribute
+      4. Rating (optional)
   -->
-
+  
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="Hotel" maxOccurs="unbounded">
+        <xs:element name="Hotel" maxOccurs="unbounded" minOccurs="1">
           <xs:complexType>
             <xs:sequence>
-
-              <!-- 1. Name: string, required exactly once -->
-              <xs:element name="Name" type="xs:string"/>
-
-              <!-- 2. Phone: string, repeated 1..unbounded -->
-              <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
-
-              <!-- 3. Address: has child elements Number, Street, City, State, Zip
-                     plus attribute "NearstAirport" spelled exactly like this, optional -->
-              <xs:element name="Address">
+              
+              <!-- 1. Name -->
+              <xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+              
+              <!-- 2. Phone (at least one, possibly many) -->
+              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+              
+              <!-- 3. Address with child elements and required NearstAirport attribute -->
+              <xs:element name="Address" minOccurs="1" maxOccurs="1">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="Number" type="xs:string"/>
-                    <xs:element name="Street" type="xs:string"/>
-                    <xs:element name="City" type="xs:string"/>
-                    <xs:element name="State" type="xs:string"/>
-                    <xs:element name="Zip" type="xs:string"/>
+                    <xs:element name="Number" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="Street" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="Zip" type="xs:string" minOccurs="1" maxOccurs="1"/>
                   </xs:sequence>
+                  <!-- NearstAirport is now required -->
                   <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
                 </xs:complexType>
               </xs:element>
-
-              <!-- 4. Rating: decimal, optional (0..1) -->
-              <xs:element name="Rating" type="xs:decimal" minOccurs="0"/>
-
+              
+              <!-- 4. Rating (optional, numeric) -->
+              <xs:element name="Rating" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+            
             </xs:sequence>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-
+  
 </xs:schema>
