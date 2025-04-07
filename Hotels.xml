@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels>
   <Hotel id="H1">
+    <Name>Hotel ABC</Name>
     <Phone>123-456-7890</Phone>
     <Phone>234-567-8901</Phone>
-    <Name>Hotel ABC</Name>
     <Address nearstAirport="Airport1">
       <Number>123</Number>
       <Street>Main Street</Street>
@@ -14,8 +14,8 @@
     <Rating>4.5</Rating>
   </Hotel>
   <Hotel id="H2">
-    <Phone>345-678-9012</Phone>
     <Name>Hotel XYZ</Name>
+    <Phone>345-678-9012</Phone>
     <Address nearstAirport="Airport2">
       <Number>456</Number>
       <Street>Second Ave</Street>
@@ -25,8 +25,8 @@
     </Address>
   </Hotel>
   <Hotel id="H3">
-    <Phone>456-789-0123</Phone>
     <Name>Hotel Sunrise</Name>
+    <Phone>456-789-0123</Phone>
     <Address nearstAirport="Airport3">
       <Number>789</Number>
       <Street>Third Blvd</Street>
@@ -37,8 +37,8 @@
     <Rating>4.0</Rating>
   </Hotel>
   <Hotel id="H4">
-    <Phone>567-890-1234</Phone>
     <Name>Hotel Sunset</Name>
+    <Phone>567-890-1234</Phone>
     <Address nearstAirport="Airport4">
       <Number>101</Number>
       <Street>Fourth Street</Street>
@@ -48,8 +48,8 @@
     </Address>
   </Hotel>
   <Hotel id="H5">
-    <Phone>678-901-2345</Phone>
     <Name>Hotel Paradise</Name>
+    <Phone>678-901-2345</Phone>
     <Address nearstAirport="Airport5">
       <Number>202</Number>
       <Street>Fifth Ave</Street>
@@ -60,8 +60,8 @@
     <Rating>4.2</Rating>
   </Hotel>
   <Hotel id="H6">
-    <Phone>789-012-3456</Phone>
     <Name>Hotel Oasis</Name>
+    <Phone>789-012-3456</Phone>
     <Address nearstAirport="Airport6">
       <Number>303</Number>
       <Street>Sixth Blvd</Street>
@@ -71,8 +71,8 @@
     </Address>
   </Hotel>
   <Hotel id="H7">
-    <Phone>890-123-4567</Phone>
     <Name>Hotel Majestic</Name>
+    <Phone>890-123-4567</Phone>
     <Address nearstAirport="Airport7">
       <Number>404</Number>
       <Street>Seventh Street</Street>
@@ -83,8 +83,8 @@
     <Rating>4.8</Rating>
   </Hotel>
   <Hotel id="H8">
-    <Phone>901-234-5678</Phone>
     <Name>Hotel Imperial</Name>
+    <Phone>901-234-5678</Phone>
     <Address nearstAirport="Airport8">
       <Number>505</Number>
       <Street>Eighth Ave</Street>
@@ -94,8 +94,8 @@
     </Address>
   </Hotel>
   <Hotel id="H9">
-    <Phone>012-345-6789</Phone>
     <Name>Hotel Royale</Name>
+    <Phone>012-345-6789</Phone>
     <Address nearstAirport="Airport9">
       <Number>606</Number>
       <Street>Ninth Road</Street>
@@ -106,8 +106,8 @@
     <Rating>4.3</Rating>
   </Hotel>
   <Hotel id="H10">
-    <Phone>123-123-1234</Phone>
     <Name>Hotel Elite</Name>
+    <Phone>123-123-1234</Phone>
     <Address nearstAirport="Airport10">
       <Number>707</Number>
       <Street>Tenth Street</Street>
