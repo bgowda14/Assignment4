@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels>
+<Hotels xmlns="https://bgowda14.github.io/Assignment4">
   <Hotel>
     <Name>Hotel ABC</Name>
     <Phone>123-456-7890</Phone>
